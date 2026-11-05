@@ -1,0 +1,16 @@
+{
+  "name": "cap-webresources",
+  "private": true,
+  "scripts": {
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@vitest/coverage-v8": "5.1.0",
+    "eslint": "10.14.0",
+    "vitest": "5.1.0",
+    "xrm-mock": "3.6.2"
+  }
+}

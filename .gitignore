@@ -1,0 +1,82 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esult*/
+*.trx
+*.log
+*.coverage
+*.coveragexml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+
+# Node / PCF
+node_modules/
+out/
+generated/
+# Early-bound classes are committed: the plugin projects do not build without them.
+!src/PowerPlatform/Plugins/*.Common/Generated/
+*.tsbuildinfo
+coverage/
+
+# Playwright (recommended browser tooling). The browser profile lives outside the repository;
+# only the shared playwright-cli configuration is committed.
+test-results/
+playwright-report/
+blob-report/
+.playwright/*
+!.playwright/cli.config.json
+.playwright-cli/
+
+# Secrets and environment configuration: never committed. dv-connect writes .env and the token
+# cache; scripts/auth.py and scripts/enable-mcp-client.py are committed.
+.env
+*.env
+.env.*
+.token_cache.bin
+.dataverse/
+.claude/mcp_settings.json
+secrets.json
+appsettings.*.local.json
+*.pfx
+*.snk
+*.publishsettings
+
+# Python (the Dataverse skills' scripts)
+__pycache__/
+*.pyc
+.venv/
+
+# Solution zips: the unpacked source under solutions/ is what is committed
+solutions/*.zip
+
+# Local agent and tooling state
+.claude/settings.local.json
+.build-cache/
+
+# VS Code: ignore personal settings, keep what the team shares
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+~$*

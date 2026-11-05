@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/CustomAPIs/" />
+  <Folder Name="/Plugins/">
+    <Project Path="Plugins/RegistroUsuarios.Common/RegistroUsuarios.Common.csproj" />
+  </Folder>
+  <Folder Name="/WebResources/">
+    <Project Path="WebResources/RegistroUsuarios.WebResources/RegistroUsuarios.WebResources.esproj" />
+  </Folder>
+</Solution>
