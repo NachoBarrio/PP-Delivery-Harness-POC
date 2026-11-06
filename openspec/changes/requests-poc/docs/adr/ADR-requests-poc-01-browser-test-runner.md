@@ -1,7 +1,7 @@
 # ADR-requests-poc-01. Runner de navegador limitado a la POC
 
-- Status: Proposed
-- Date: Pendiente de aceptacion
+- Status: Accepted
+- Date: 2026-11-06
 - Change: requests-poc
 - Supersedes: Ninguno
 - Requirements: internal-requests: Evidencia reproducible con un administrador
