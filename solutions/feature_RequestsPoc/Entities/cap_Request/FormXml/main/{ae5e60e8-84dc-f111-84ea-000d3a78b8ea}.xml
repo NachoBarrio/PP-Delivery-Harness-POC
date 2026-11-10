@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ae5e60e8-84dc-f111-84ea-000d3a78b8ea}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{D16E2595-07DF-40EE-BBCA-7023D6169F83}" IsUserDefined="1" labelid="{23875b96-b9da-46d1-a8e9-70ab92d800ee}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{46CDEB6D-A580-4206-A310-6C98C7805E54}" labelid="{a16c7525-8867-4abb-8f0c-ed04d8b4484c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7D04F447-40C8-4322-A0AE-0D7E6CCE6816}" labelid="{c8e2bfb1-6fc6-4e63-a3c0-42c957bc24af}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cap_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cap_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65854997-F666-451A-A708-F89F6CA87987}" labelid="{cf7fd84a-7727-48d0-94fc-67041c37d371}">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="cap_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cap_priority" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67492886-55FF-43EE-AD01-7CBAB483F233}" labelid="{1783d858-a30c-4320-8ec1-7b5e2f10ad07}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="cap_requeststatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cap_requeststatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4B6B7816-9B7E-4883-BA2E-B06D4BAD0C19}" rowspan="4" labelid="{9acfad3c-4243-4ebd-b452-ce9bd582b29f}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cap_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cap_description" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{db4ebeff-d580-45c8-85eb-aa19a8a89e9d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a0cce7dc-b86a-4b46-95c3-a5feb0058b23}" showlabel="false" labelid="{dfce168a-f409-458f-8077-4d2403ad392f}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2ecdf5d8-ba01-4b4c-8fd0-f5214a8946f6}" showlabel="false" labelid="{e77ba11c-c77c-4e8e-a8f2-89363049263b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{40198ac3-0275-4bb5-a94f-24dd6abcedfb}" showlabel="false" labelid="{dc3fa67a-24bd-4a80-8b7a-a6f101d538b0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a0816890-c742-4996-9610-d3701aec25f3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6d438110-bd60-4b54-88c0-aba948300288}" showlabel="false" labelid="{8144de92-1534-40b9-9973-b400f32a911d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{903f9d38-52c3-42fa-991b-1f04f05ec413}" showlabel="false" labelid="{074426a0-a16a-4ea3-9dda-ea67204df96b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c7f08431-2609-47d1-b2dd-850160661203}" showlabel="false" labelid="{71330138-8304-4718-8281-27ebf455304b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="cap_/src/js/cap_request/RequestPocForm.js" libraryUniqueId="{fdd645b9-56c4-4ed2-bc10-29a3ff63948a}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="RegistroUsuarios.RequestPocForm.onLoad" libraryName="cap_/src/js/cap_request/RequestPocForm.js" handlerUniqueId="{bd1bf988-c95b-4fb6-852d-d53c904d4c2b}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Solicitud POC" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

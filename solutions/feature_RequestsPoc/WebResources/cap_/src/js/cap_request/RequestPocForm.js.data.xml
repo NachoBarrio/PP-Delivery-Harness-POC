@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{73cddcf1-20da-f111-84ea-000d3a78b8ea}</WebResourceId>
+  <Name>cap_/src/js/cap_request/RequestPocForm.js</Name>
+  <DisplayName>Request POC Form</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cap_srcjscap_requestRequestPocFormjs73CDDCF1-20DA-F111-84EA-000D3A78B8EA</FileName>
+</WebResource>

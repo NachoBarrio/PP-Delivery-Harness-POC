@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{18f51bbf-a7d0-f111-a05d-000d3a78b8ea}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cap_name" select="1" icon="1" preview="1">
+        <row name="result" id="cap_requestid">
+          <cell name="cap_name" width="300" />
+          <cell name="cap_priority" width="125" />
+          <cell name="cap_requeststatus" width="125" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cap_request">
+          <attribute name="cap_name" />
+          <attribute name="cap_priority" />
+          <attribute name="cap_requeststatus" />
+          <attribute name="createdon" />
+          <attribute name="cap_requestid" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Requests" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Browse all requests and filter by priority or business status." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>
