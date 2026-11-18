@@ -56,6 +56,8 @@ Check everything before changing anything. When a check fails, stop, say which o
 3. Publisher `Cap` exists there with prefix `cap`.
 4. No solution in DEV already has the feature solution's unique name.
 
+Excepcion limitada a la comprobacion 2: `SDD-Testing`, con Environment ID `e475c09c-b6c4-ef80-8fc5-5d4cdbd3fcfa`, es un entorno de desarrollo confirmado por el responsable del proyecto y se admite pese a contener `test` en su nombre. Antes de operar, verificar ese Environment ID con PAC y comprobar que la URL y el tenant coinciden con `connections.dataverse` en `.power-platform/project.json`. La excepcion no se aplica a otros entornos, aunque tengan el mismo nombre, ni elimina ninguna otra comprobacion, aprobacion o confirmacion requerida.
+
 Then show the user the plan — branch, feature solution, publisher and environment — and wait for the go-ahead.
 
 - Offer both ways of creating the branch, and let the user choose:
